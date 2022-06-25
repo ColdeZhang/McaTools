@@ -1,0 +1,3 @@
+add_executable(McaTools main.cpp include.h BasicComponent/SingleIndexItem.cpp BasicComponent/SingleIndexItem.h FunctionModule/GetFiles.cpp FunctionModule/GetFiles.h BasicComponent/FormFileIndexContainer.cpp BasicComponent/FormFileIndexContainer.h BasicComponent/FileIndexPicker.cpp BasicComponent/FileIndexPicker.h FunctionModule/DataPacket.cpp FunctionModule/DataPacket.h)
+
+include_directories(../external/yaml-cpp/include)
